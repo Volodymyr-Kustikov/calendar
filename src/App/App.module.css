@@ -1,0 +1,25 @@
+.day {
+  cursor: url(../images/bloody-knife.png), auto;
+  transition: 0.8s;
+}
+
+.unActiveDays {
+  color: rgb(72, 72, 72);
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 200px;
+  width: auto;
+  position: absolute;
+  top: 300px;
+  left: 700px;
+  background-color: #1b1b1b;
+  padding: 50px 50px;
+  font-size: 38px;
+}
+
+.navigation {
+  margin-top: 150px;
+}
